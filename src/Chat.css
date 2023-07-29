@@ -1,0 +1,106 @@
+.chat{
+    flex: .65;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPvihnm7imi7uy5kLn7BuBPX96mPn2XXeljQ&usqp=CAU");
+    display: flex;
+    flex-direction: column;
+}
+.chat_header{
+    padding:15px;
+    display: flex;
+    align-items: center;
+    border: 3px solid darkolivegreen;
+}
+.chat_headerInfo{
+    flex: 1;
+    padding-left: 20px;
+
+}
+.chat_headerInfo > h3{
+    margin-bottom: 3px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.chat_headerInfo >p{
+    color: gray;
+    font-weight: 700;
+}
+.chat_headerRight{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+}
+.chat_body{
+    flex: 1;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPvihnm7imi7uy5kLn7BuBPX96mPn2XXeljQ&usqp=CAU");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+    overflow: scroll;
+    
+
+}
+
+.chat_message{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    font-size: large;
+    background-color: rgb(27, 27, 27);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: fit-content;
+}
+.chat_name{
+    position: absolute;
+    top: -15px;
+    font-weight: 800;
+    font-size: small;
+    color: rgb(36, 35, 35);
+    text-transform: capitalize;
+    
+}
+.chat_timestamp{
+    margin-left: 10px;
+    font-size: xx-small;
+    bottom: 0;
+    color: rgb(206, 211, 218);
+}
+.chat_receiver{
+    margin-left: auto;
+    background-color: #075e54;
+}
+.chat_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+    border-top: 1px solid lightgray;
+    border: 3px solid darkolivegreen;
+    
+}
+.chat_footer > form {
+    flex: 1;
+    display: flex;
+}
+.chat_footer > form >  input {
+    flex: 1;
+    padding: 10px;
+    border:none;
+    border-radius: 30px;
+}
+.chat_footer > form >  button{
+    display: none;
+}
+
+.chat_footer > .MuiSvgIcon-root{
+    padding: 10px;
+    color: gray;
+    font-weight: 800;
+}
+.chat_header > .MuiSvgIcon-root{
+    color: gray;
+    font-weight: 800;
+}
